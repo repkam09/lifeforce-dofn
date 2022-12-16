@@ -7,7 +7,17 @@ packages:
       parameters: {}
       annotations: {}
       functions:
-        - name: weather
+        - name: weather-latlong
+          binary: false
+          main: ""
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: weather-zip
           binary: false
           main: ""
           runtime: nodejs:18

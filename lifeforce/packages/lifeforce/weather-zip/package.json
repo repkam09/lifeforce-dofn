@@ -1,15 +1,16 @@
 {
-  "name": "weather",
+  "name": "weather-zip",
   "version": "1.0.0",
   "description": "",
-  "main": "weather.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "node-fetch": "^3.3.0"
+    "node-fetch": "^3"
   }
 }
