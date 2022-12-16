@@ -1,0 +1,1 @@
+doctl serverless deploy lifeforce
