@@ -1,0 +1,29 @@
+parameters: {}
+environment: {}
+packages:
+    - name: lifeforce
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: weather
+          binary: false
+          main: ""
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: echo
+          binary: false
+          main: ""
+          runtime: nodejs:18
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}          
